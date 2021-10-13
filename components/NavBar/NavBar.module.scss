@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 16px 0;
+  width: 100%;
+  user-select: none;
+}
+
+.nav header {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.nav a {
+  margin-left: 32px;
+  text-decoration: none;
+  color: #000;
+}
+
+.to-right {
+  margin-left: auto;
+}

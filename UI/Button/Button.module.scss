@@ -1,0 +1,22 @@
+$padding: 15px;
+
+.button {
+  border: none;
+  background: #9a77fd;
+  padding: $padding calc($padding * 2);
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.button--white {
+  background: #fff;
+  color: #000;
+}
